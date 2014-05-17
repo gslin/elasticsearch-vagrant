@@ -11,7 +11,7 @@ EOF
     apt-get update
 
     DEBIAN_FRONTEND=noninteractive apt-get -y install git vim-nox
-    DEBIAN_FRONTEND=noninteractive apt-get -y install default-jdk elasticsearch
+    DEBIAN_FRONTEND=noninteractive apt-get -y install default-jre elasticsearch
 
     update-rc.d elasticsearch defaults 95 1
 
