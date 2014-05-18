@@ -11,9 +11,11 @@ Tested on Vagrant 1.6.2 (w/ Docker).
 Test
 ----
 
-* http://127.0.0.1:9200/
-* http://127.0.0.1:9200/_plugin/kibana/
-* http://127.0.0.1:9200/_plugin/marvel/
+After <code>vagrant up</code>, you can access:
+
+* http://127.0.0.1:9200/ (Elasticsearch)
+* http://127.0.0.1:9200/_plugin/kibana/ (Kibana)
+* http://127.0.0.1:9200/_plugin/marvel/ (Marvel)
 
 License
 -------
