@@ -16,6 +16,8 @@ EOF
     update-rc.d elasticsearch defaults 95 1
 
     /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
+    /usr/share/elasticsearch/bin/plugin -i elasticsearch/kibana/latest
+
     service elasticsearch restart
 }
 
