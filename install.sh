@@ -17,6 +17,7 @@ EOF
 
     /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
     /usr/share/elasticsearch/bin/plugin -i kibana/kibana/latest
+    /usr/share/elasticsearch/bin/plugin -i mobz/elasticsearch-head
 
     # Security issue: http://bouk.co/blog/elasticsearch-rce/
     cat >> /etc/elasticsearch/elasticsearch.yml <<EOF
