@@ -16,7 +16,7 @@ EOF
     update-rc.d elasticsearch defaults 95 1
 
     /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
-    /usr/share/elasticsearch/bin/plugin -i elasticsearch/kibana/latest
+    /usr/share/elasticsearch/bin/plugin -i kibana/kibana/latest
 
     # Security issue: http://bouk.co/blog/elasticsearch-rce/
     cat >> /etc/elasticsearch/elasticsearch.yml <<EOF
