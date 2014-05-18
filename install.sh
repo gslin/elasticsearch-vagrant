@@ -18,6 +18,7 @@ EOF
     /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
     /usr/share/elasticsearch/bin/plugin -i elasticsearch/kibana/latest
 
+    # Security issue: http://bouk.co/blog/elasticsearch-rce/
     cat >> /etc/elasticsearch/elasticsearch.yml <<EOF
 script.disable_dynamic: true
 EOF
