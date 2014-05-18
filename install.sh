@@ -15,7 +15,8 @@ EOF
 
     update-rc.d elasticsearch defaults 95 1
 
-    service elasticsearch start
+    /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
+    service elasticsearch restart
 }
 
 work
